@@ -1,0 +1,138 @@
+/* ------------------up bar start------------------- */
+
+.up-bar {
+    background-color: var(--darkblueColor);
+    font-size: 0.9rem;
+}
+
+@media (min-width:1200px) {
+    .up-bar {
+        font-size: 1.1rem;
+    }
+}
+
+/* ------------------up bar end------------------- */
+
+
+/* ------------------nav bar start------------------- */
+
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-left: -25px;
+}
+
+.navbar {
+    width: 100% !important;
+
+}
+
+.nav-bar {
+    z-index: 10;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.navbar-nav li a {
+    color: var(--darkblueColor);
+    font-size: var(--parFont) !important;
+    letter-spacing: 1px;
+}
+
+.btn-purchase {
+    border: 2px var(--darkblueColor) solid;
+}
+
+.btn-purchase:hover {
+    border: 2px var(--darkblueColor) solid;
+    transform: scale(1.1);
+}
+
+.dropdown-toggle {
+    position: relative;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+    transform: none;
+    height: fit-content;
+    opacity: 0.9;
+}
+
+@media (max-width:991px) {
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 0px;
+    }
+
+    .offcanvas-header .btn-close {
+        margin-right: 10px;
+        font-size: 1.4rem;
+    }
+
+    .offcanvas-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-purchase {
+        order: 2;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        order: 1;
+    }
+}
+
+/* ------------------nav bar end------------------- */
+
+.blank-page h2 {
+    font-size: 8rem;
+    color: gainsboro;
+    letter-spacing: -6px;
+}
+
+/* ---footer start--- */
+.blank-page-footer {
+    background-color: var(--darkblueColor);
+    font-size: 1.2rem;
+}
+
+.blank-page-footer .row {
+    color: rgb(204, 202, 202);
+}
+
+@media (max-width:576px) {
+    .blank-page h2 {
+        font-size: 3rem;
+        color: gainsboro;
+        letter-spacing: -6px;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .blank-page h2 {
+        font-size: 4rem;
+        color: gainsboro;
+        letter-spacing: -6px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .blank-page h2 {
+        font-size: 5rem;
+        color: gainsboro;
+        letter-spacing: -6px;
+    }
+}
+
+/* ---footer end--- */

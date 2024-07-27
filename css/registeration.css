@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --darkblueColor: #2A3855;
+    --grayColor: #f2f2f2;
+    --textColor: #6a6a6a;
+    --parFont: 1.2rem;
+}
+
+
+.registeration-content {
+    background-image: url('../imgs/registeration.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.registeration-content .myBackground {
+    background-color: rgba(57, 57, 57, 0.5);
+    height: 100%;
+
+}
+
+.registeration-content h2 {
+    color: var(--darkblueColor);
+}
+
+.registeration-content a {
+    background-color: var(--darkblueColor);
+}
+
+.myLogo {
+    margin-bottom: 50px;
+}
+
+.form-check-input:checked {
+    background-color: var(--darkblueColor);
+}
+
+.myColumn {
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+@media (max-width:576px) {
+    .myColumn {
+        padding: 30px;
+    }
+
+    .registeration-content h2 {
+        font-size: 1rem !important;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .myLogo {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .myLogo {
+        margin-bottom: 0;
+    }
+}

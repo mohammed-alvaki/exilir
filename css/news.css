@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --darkblueColor: #2A3855;
+    --grayColor: #f2f2f2;
+    --textColor: #6a6a6a;
+    --parFont: 1rem;
+}
+
+
+/* ------------------up bar start------------------- */
+
+.up-bar {
+    background-color: var(--darkblueColor);
+    font-size: 0.9rem !important;
+}
+
+/* ------------------up bar end------------------- */
+
+
+/* --- top comments start --- */
+.news h2 {
+    color: var(--darkblueColor);
+}
+
+.news p,
+ol {
+    color: var(--textColor);
+}
+
+.news a {
+    color: var(--darkblueColor);
+}
+
+.news a:hover {
+    text-decoration: underline !important;
+}
+
+
+.tomas-accounts svg {
+    height: 20px;
+    width: 20px;
+}
+
+.card-text {
+    color: var(--textColor);
+}
+
+.tomas-accounts span {
+    background-color: rgb(202, 202, 202);
+    padding: 13px 8px;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+
+.top-comments small {
+    color: var(--textColor);
+}
+
+.top-comments h4 {
+    color: var(--darkblueColor);
+}
+
+hr {
+    color: var(--textColor);
+}
+
+/* ---top comments end--- */
+
+
+/* ---swiper start--- */
+
+.swiper h3 {
+    font-size: 1.3rem;
+}
+
+.mySwiper .card-body a {
+    color: var(--darkblueColor);
+}
+
+.mySwiper p {
+    color: var(--textColor);
+}
+
+
+.mySwiper a:last-child:hover {
+    text-decoration: underline !important;
+    margin-top: 20px !important;
+}
+
+/* ---swiper end--- */
+
+
+/* ---------form part start--------- */
+.news-form-content {
+    margin-top: 6rem;
+}
+
+.news h3 {
+    color: var(--darkblueColor);
+}
+
+.news-form-content input,
+textarea {
+    color: rgb(189, 185, 185);
+    border: 1px gainsboro solid;
+}
+
+input::placeholder,
+textarea::placeholder,
+.news-form-content form a {
+    font-size: 0.9rem;
+}
+
+.news-form-content a {
+    background-color: var(--darkblueColor);
+    text-align: center;
+}
+
+/* ---------form part end--------- */
+
+
+.tags .btn {
+    border: 1px var(--darkblueColor) solid;
+    color: var(--darkblueColor);
+    font-size: 0.9rem;
+    font-weight: 600;
+}

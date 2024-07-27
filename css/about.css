@@ -1,0 +1,118 @@
+/* ----middle part start---- */
+.middle-content {
+    padding: 50px 0;
+}
+
+.ceo-message {
+    margin: 80px 0;
+}
+
+.ceo-message h4 {
+    color: var(--darkblueColor);
+}
+
+.ceo-message p {
+    color: var(--textColor);
+}
+
+
+.company-overview h2 {
+    font-size: 2rem;
+    letter-spacing: -2px;
+    margin-bottom: 100px;
+    color: var(--darkblueColor);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.company-overview .row {
+    border-radius: 20px;
+}
+
+.company-overview h2::after {
+    content: "____";
+    position: absolute;
+    top: 20px;
+    color: var(--darkblueColor);
+    font-weight: bold;
+}
+
+
+.company-overview h3,
+blockquote {
+    color: var(--darkblueColor);
+}
+
+.middle-content .card {
+    border: none;
+}
+
+blockquote {
+    padding: 0 60px !important;
+}
+
+blockquote:after {
+    content: "";
+    background: url('../imgs/quotes.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3.125rem;
+    height: 3.125rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.company-overview p {
+    color: var(--textColor);
+}
+
+.dropcap::first-letter {
+    font-size: 3em;
+    float: left;
+    line-height: .92;
+    margin-right: .375rem;
+    color: var(--darkblueColor);
+}
+
+@media (min-width:992px) {
+    blockquote:after {
+        left: 230px;
+    }
+
+    blockquote {
+        padding: 0 300px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    blockquote:after {
+        left: 100px;
+    }
+
+    blockquote {
+        padding: 0 165px !important;
+    }
+}
+
+/* ----middle part end---- */
+
+
+
+/* ---if-you-have start--- */
+.about .if-you-have {
+    background-color: var(--darkblueColor);
+    padding: 50px 0;
+    margin: 0 0;
+}
+
+.about .if-you-have a {
+    color: var(--darkblueColor);
+    font-weight: bold;
+    padding: 15px 50px;
+    background-color: #EEE;
+    border-radius: 30px;
+}
+
+/* ---if-you-have end--- */

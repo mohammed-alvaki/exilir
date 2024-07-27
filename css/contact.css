@@ -1,0 +1,183 @@
+/* ------------------up bar start------------------- */
+
+.up-bar {
+    background-color: var(--darkblueColor);
+    font-size: 0.9rem;
+}
+
+@media (min-width:1200px) {
+    .up-bar {
+        font-size: 1.1rem;
+    }
+}
+
+/* ------------------up bar end------------------- */
+
+/* ------------------image start------------------- */
+
+.bg-part {
+    background-image: url('../imgs/contact.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.bg-part .inner-part {
+    background-color: rgba(73, 74, 78, 0.703);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bg-part .inner-part h2 {
+    font-size: 3rem;
+    letter-spacing: -2px;
+}
+
+.contact h2 {
+    color: var(--darkblueColor);
+    font-size: 1.3rem;
+}
+
+.bg-part .inner-part a:hover {
+    text-decoration: underline !important;
+}
+
+@media (max-width:576px) {
+    .bg-part {
+        height: 400px;
+    }
+
+    .bg-part .inner-part {
+        padding-left: 5%;
+    }
+}
+
+@media (min-width:577px) and (max-width:991px) {
+    .bg-part {
+        height: 400px;
+    }
+}
+
+@media (min-width:767px) and (max-width:991px) {
+    .bg-part .inner-part h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .bg-part {
+        height: 450px;
+    }
+
+    .bg-part .inner-part h2 {
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .bg-part {
+        height: 550px;
+    }
+
+    .bg-part .inner-part h2 {
+        font-size: 5.5rem;
+    }
+}
+
+/* ------------------image end------------------- */
+
+
+/* ------------------contact start------------------- */
+.contact {
+    padding: 150px 0;
+}
+
+.icons>div span:nth-child(1) {
+    background-color: var(--darkblueColor);
+    border-radius: 5px;
+}
+
+.icons>div {
+    margin-bottom: 40px;
+}
+
+.icons svg {
+    height: 20px;
+    width: 20px;
+}
+
+.icons span {
+    background-color: var(--darkblueColor);
+    padding: 13px 10px;
+    border-radius: 5px;
+
+}
+
+.contact .offices p {
+    font-size: var(--parFont);
+}
+
+@media (max-width:576px) {
+    .icons svg {
+        height: 22px;
+        width: 22px;
+    }
+
+    .icons span {
+        padding: 13px 8px;
+
+    }
+}
+
+@media (max-width:991px) {
+    .contact .offices p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:992px) {
+    .contact .offices .col-lg-4 {
+        width: 30% !important;
+    }
+
+    .contact .offices .col-lg-4:nth-child(2) {
+        margin: 0 3%;
+    }
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/* ---------form part start--------- */
+.form-content h2 {
+    color: var(--darkblueColor);
+}
+
+.form-content h2 {
+    color: var(--darkblueColor);
+}
+
+.form-content input,
+textarea {
+    color: rgb(189, 185, 185);
+    border: 1px gainsboro solid;
+}
+
+.form-content :where(input::placeholder, textarea::placeholder, form button, textarea) {
+    font-size: 0.9rem;
+}
+
+.form-content textarea:focus {
+    outline: none;
+}
+
+.form-content a {
+    background-color: var(--darkblueColor);
+    text-align: center;
+}
+
+/* ---------form part end--------- */

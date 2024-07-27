@@ -1,28 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-:root {
-    --darkblueColor: #2A3855;
-    --grayColor: #f2f2f2;
-    --textColor: #6a6a6a;
-    --parFont: 1rem;
-}
-
-
-/* ------------------up bar start------------------- */
-
-.up-bar {
-    background-color: var(--darkblueColor);
-    font-size: 0.9rem !important;
-}
-
-/* ------------------up bar end------------------- */
-
-
 /* --- top comments start --- */
 .news h2 {
     color: var(--darkblueColor);

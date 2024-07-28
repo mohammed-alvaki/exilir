@@ -8,6 +8,7 @@
 
 :root {
     --darkblueColor: #2A3855;
+    --darkblue-hover: #1f2f51;
     --grayColor: #f2f2f2;
     --textColor: #6a6a6a;
     --parFont: 1rem;
@@ -64,16 +65,16 @@ body {
     margin-left: -10px;
 }
 
+.offcanvas-logo {
+    margin-left: -12px;
+}
+
 .navbar {
     width: 100% !important;
 }
 
 .nav-bar {
     z-index: 10;
-}
-
-.navbar-nav li {
-    margin-right: 15px;
 }
 
 .btn-purchase {
@@ -85,7 +86,6 @@ body {
 
 .btn-purchase:hover {
     border: 2px var(--darkblueColor) solid;
-    transform: scale(1.1);
 }
 
 .dropdown-menu {
@@ -139,6 +139,10 @@ body {
         margin-left: -20px;
     }
 
+    .navbar-nav li {
+        margin-right: 15px;
+    }
+
     .btn-purchase:hover {
         border: 2px var(--darkblueColor) solid;
         background-color: var(--darkblueColor);
@@ -189,6 +193,10 @@ body {
     padding: 10px 30px;
     border-radius: 3px;
     width: fit-content;
+}
+
+.btn-readmore:hover {
+    background-color: var(--darkblue-hover);
 }
 
 .btn-contactus {

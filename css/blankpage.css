@@ -12,7 +12,6 @@
 
 .btn-purchase:hover {
     border: 2px var(--darkblueColor) solid;
-    transform: scale(1.1);
 }
 
 .dropdown-toggle {
@@ -79,7 +78,7 @@
     .blank-page h2 {
         font-size: 3rem;
         color: gainsboro;
-        letter-spacing: -6px;
+        letter-spacing: 0;
     }
 
 }
@@ -88,7 +87,7 @@
     .blank-page h2 {
         font-size: 4rem;
         color: gainsboro;
-        letter-spacing: -6px;
+        letter-spacing: -3px;
     }
 }
 
@@ -96,7 +95,6 @@
     .blank-page h2 {
         font-size: 5rem;
         color: gainsboro;
-        letter-spacing: -6px;
     }
 }
 

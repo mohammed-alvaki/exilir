@@ -33,6 +33,7 @@ body {
 }
 
 /* ------------------up bar start------------------- */
+
 .up-bar {
     background-color: var(--darkblueColor);
     font-size: 0.9rem !important;

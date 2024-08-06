@@ -35,7 +35,7 @@
             <div class="inner-part">
                 <div class="container text-white">
                     <h2 class="fw-bold" data-aos="fade-up">Services</h2>
-                    <div data-aos="fade-up" data-aos-delay="100"><a href="index.html"
+                    <div data-aos="fade-up" data-aos-delay="100"><a href="index.php"
                             class="text-decoration-none text-reset fw-bold fs-3">Home </a><span class="fs-3">
                             >> services</span></div>
                 </div>
@@ -196,7 +196,7 @@
                             If you have any query related investment... we are available 24/7
                         </p>
                     </div>
-                    <div class="col-md-auto"><a href="contact.html" class="text-decoration-none" type="button">Contact
+                    <div class="col-md-auto"><a href="contact.php" class="text-decoration-none" type="button">Contact
                             Us</a></div>
                 </div>
             </div>
@@ -433,7 +433,7 @@
                         <div class="row">
                             <div class="info col-6">
                                 <ul class="list-unstyled">
-                                    <li class="list-item"><a href="contact.html"
+                                    <li class="list-item"><a href="contact.php"
                                             class="list-link text-decoration-none text-white fw-bold fs-6">Contact
                                             Us</a></li>
                                     <li class="list-item"><a href=""

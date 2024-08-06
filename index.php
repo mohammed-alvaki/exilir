@@ -906,7 +906,7 @@
                         <div class="row">
                             <div class="info col-6">
                                 <ul class="list-unstyled">
-                                    <li class="list-item"><a href="contact.php"
+                                    <li class="list-item"><a href="contact.html"
                                             class="list-link text-decoration-none text-white fw-bold fs-6">Contact
                                             Us</a></li>
                                     <li class="list-item"><a href=""

@@ -30,7 +30,7 @@
                     <div class="main-column col-12 col-lg-6">
                         <h2 class="text-center fw-bold text-white ">OOPS! PAGE NOT FOUND.</h2>
                         <h3 class="number-404 text-white fw-bold">404</h3>
-                        <a href="index.php" type="button" class=" text-dark text-decoration-none fw-bold">Take Me
+                        <a href="index.html" type="button" class=" text-dark text-decoration-none fw-bold">Take Me
                             Home</a>
                     </div>
                 </div>
